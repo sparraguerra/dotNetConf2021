@@ -1,0 +1,18 @@
+# Local
+POST http://localhost:7071/api/MyBlobFunction?id={{$guid}}
+Content-Type: application/json
+
+{
+    "Demo": "Azure Functions + .Net 6 Local"
+}
+
+###
+
+# Azure
+POST https://func-netconf-net6.azurewebsites.net/api/MyBlobFunction?id={{$guid}}&code=jERaN9B8yMF7lTRewn/u6YXWIEJ0zfHsubPe7LwCid4W2mm2EJnSAA==
+Content-Type: application/json
+
+{
+    "Demo": "Azure Functions + .Net 6"
+}
+

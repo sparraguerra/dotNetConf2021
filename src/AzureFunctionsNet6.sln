@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionAppNet6", "FunctionAppNet6\FunctionAppNet6.csproj", "{31C2C74D-BB64-481C-94AA-755FD61183E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionAppNet6.InProc.Static", "FunctionAppNet6.InProc.Static\FunctionAppNet6.InProc.Static.csproj", "{FBBFAF7F-1683-491A-A5F7-3756907FC479}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionAppNet6.OutProc.Static", "FunctionAppNet6.OutProc.Static\FunctionAppNet6.OutProc.Static.csproj", "{AC77286D-F1F8-469F-83B5-42E534C8FEC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionAppNet6.InProc.IoC", "FunctionAppNet6.InProc.IoC\FunctionAppNet6.InProc.IoC.csproj", "{B13DAF6E-C121-4792-8190-667A4CADF09B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionAppNet6.OutProc.IoC", "FunctionAppNet6.OutProc.IoC\FunctionAppNet6.OutProc.IoC.csproj", "{44378885-8B73-47B0-B130-3419F8D08838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionAppLegacy", "FunctionAppLegacy\FunctionAppLegacy.csproj", "{4744EA4D-8A6B-4CF2-BD4E-09F77A104A71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31C2C74D-BB64-481C-94AA-755FD61183E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C2C74D-BB64-481C-94AA-755FD61183E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C2C74D-BB64-481C-94AA-755FD61183E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C2C74D-BB64-481C-94AA-755FD61183E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBBFAF7F-1683-491A-A5F7-3756907FC479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBFAF7F-1683-491A-A5F7-3756907FC479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBFAF7F-1683-491A-A5F7-3756907FC479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBFAF7F-1683-491A-A5F7-3756907FC479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC77286D-F1F8-469F-83B5-42E534C8FEC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC77286D-F1F8-469F-83B5-42E534C8FEC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC77286D-F1F8-469F-83B5-42E534C8FEC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC77286D-F1F8-469F-83B5-42E534C8FEC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B13DAF6E-C121-4792-8190-667A4CADF09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13DAF6E-C121-4792-8190-667A4CADF09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13DAF6E-C121-4792-8190-667A4CADF09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13DAF6E-C121-4792-8190-667A4CADF09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44378885-8B73-47B0-B130-3419F8D08838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44378885-8B73-47B0-B130-3419F8D08838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44378885-8B73-47B0-B130-3419F8D08838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44378885-8B73-47B0-B130-3419F8D08838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4744EA4D-8A6B-4CF2-BD4E-09F77A104A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4744EA4D-8A6B-4CF2-BD4E-09F77A104A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4744EA4D-8A6B-4CF2-BD4E-09F77A104A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4744EA4D-8A6B-4CF2-BD4E-09F77A104A71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF94EF5A-E92B-4FE2-85B0-6A7F72C55E16}
+	EndGlobalSection
+EndGlobal
